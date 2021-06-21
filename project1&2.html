@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Cultural Event Registration Form</title>
+    <link rel="stylesheet" href="project1&2.css">
+
+<style> 
+body{ background-image: url('https://www.baptist-health.com/wp-content/uploads/2020/08/ThinkstockPhotos-183439112-Converted-e1597955297832.jpg');
+      background-position: center ;
+      background-size:1750px;
+      background-repeat: no-repeat ;
+          }
+</style>
+</head>
+<body>
+    <div class ="heading">
+    <h1 align = "center"> Cultural Event Registration Form</h1>
+</div>
+
+<div class="details">
+    <fieldset>
+        <legend><h3>Name</h3></legend>
+        <label>Firstname <input type="text" name="Firstname"> </label>
+        <label>Middle name <i>(optional)</i> <input type="text" name="Middle name "> </label>
+        <label>Lastname <input type="text" name="Lastname"> </label>
+    </fieldset>
+    <br>
+    
+    <fieldset>
+        <legend><h3>Contact Details and Address</h3> </legend>
+        <label>Email Address: <input type="email" name="email"></label>
+        <label>Phone no.: <input type="phone" name="email"></label>
+        <label>Address: <textarea cols="30" rows="1"></textarea> </label>
+    </fieldset>
+    <br>
+    <fieldset>
+         <legend><h3>Gender</h3> </legend>
+         <label> <input type="radio" name="gender" value="male">Male</label> <br>
+         <label> <input type="radio" name="gender" value="female">Female</label>
+        </fieldset>
+    
+    <br>
+
+    <fieldset>
+        <legend><h3>College Name</h3></legend>
+        <label> <input type="text" name="College name" required="*"> </label>
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend><h3>Department</h3></legend>
+        <select name="Department">
+        <option value="Computer Science">CS</option>
+        <option value="Information Technology">IT</option>
+        <option value="Mechanical Engg.">ME</option>
+        <option value="Electircal Engg.">EE</option>
+        <option value="Civil Engg.">CE</option>
+        <option value="Electronics and Communication">EC</option>
+
+    </select>
+    </fieldset>
+   
+    <br>
+    <fieldset>
+        <legend><h3>Arena</h3></legend>
+        <label> <input type="Checkbox" name="Arena" value="Singing">Singing</label>
+     <select name="Arena" id="">
+        <option value="None">None</option>
+        <option value="Solo">Solo</option>
+        <option value="Duet">Duet</option>
+        <option value="Group">Group</option>
+     </select>
+    
+     &nbsp;
+        <label> <input type="Checkbox" name="Arena" value="Dancing">Dancing</label>
+      <select name="Arena" id="">
+        <option value="None">None</option>
+        <option value="Solo">Solo</option>
+        <option value="Duet">Duet</option>
+        <option value="Group">Group</option>
+     </select>
+    
+     &nbsp;
+      <label> <input type="Checkbox" name="Arena" value="Drama">Drama</label>
+      <select name="Arena" id="">
+        <option value="None">None</option>
+        <option value="Solo">Solo</option>
+        <option value="Duet">Duet</option>
+        <option value="Group">Group</option>
+     </select>
+    
+     &nbsp;
+      <label> <input type="Checkbox" name="Arena" value="Other"  <label> Other <input type="text" name="Firstname"> </label></label>
+
+    </fieldset>
+   <br>
+    <fieldset>
+        <legend> <h3>Date of registration in dd-mm-yyyy </h3> </legend>
+    <label for="start">Enter date</label>
+    <input type="date" name="begin" placeholder="dd-mm-yyyy" min="1997-11-04" max="2030-01-01">
+
+</div>
+
+</fieldset>
+
+<div>
+ <input class="button1" type="Submit" name="Submit" id="" > </input>
+
+  <input class="button2" type="Reset" name="Reset" id=""></input>
+</div>
+
+<a class="fixedButton" href="#">
+    <div class="fixedButton"><i class="fixedButton"></i>Back to top</a>
+    </div>
+</body>
+</html>
